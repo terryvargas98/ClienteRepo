@@ -1,0 +1,14 @@
+block content
+    h1= title
+    form(name="add-estimation", method="post" action="")
+        div.input
+            span.label producto
+            input(type="text", name="producto")
+            span.label cliente
+            input(type="text", name="cliente")
+            span.label vendedor
+            input(type="text", name="vendedor")
+            span.label total
+            input(type="text", name="total")
+        div.actions
+            input(type="submit", value="registrar")
